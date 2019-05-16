@@ -6,6 +6,7 @@ import { map } from 'rxjs/operators';
 @Injectable({
   providedIn: 'root'
 })
+
 export class RestService {
   public endpoint = 'http://localhost:3968/v1'
   httpOptions = {
@@ -44,11 +45,11 @@ mensaje = 'Guardar person ejecutado';
 
   }
 
-  listarAnimal(search){
+  listarAnimal(search): Observable<any>{
     return this.http.post(this.endpoint + '/buscar-encargado', {search}, this.httpOptions).pipe(map(this.extractData));
   }
 
-  searchAnimal(search){
+  searchAnimal(search):Observable<any>{
     return this.http.post(this.endpoint + '/buscar-animales', {search}, this.httpOptions).pipe(map(this.extractData));
   }
 

@@ -26,8 +26,8 @@ export class BuscarAnimalComponent implements OnInit {
       if(!res){
           console.log();
       }else{
-       //this.animales = res.animales;
-        //console.log(this.animales)
+       this.animales = res.animales;
+        console.log(this.animales)
   
       } 
     });

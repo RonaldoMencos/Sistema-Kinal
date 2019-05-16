@@ -1,0 +1,90 @@
+.actives {
+    background-color: #162d4e;
+    color: white;
+  }
+  
+  
+  .titulos{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgba(6, 110, 11, 0.993);
+    font-style: italic;
+    font-weight: bolder;
+  }
+  
+  body{
+    background-image: url("http://www.gifsyfondos.com/fondogeral.jpg")
+  }
+  
+  
+  label{
+    font-family: Century;
+    font-size: 18px;
+  }
+  
+  footer{
+    background-color: #adadad
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(63, 80, 117, 0.993);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .boton {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .abajo:hover .boton {
+    background-color: rgb(71, 115, 180);
+    text-decoration: none;
+    color: white;
+  }
+  
+  li.abajo {
+    display: inline-block;
+  }
+  
+  .desplegable {
+    display: none;
+    position: absolute;
+    background-color: #d4d4d4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .desplegable a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .desplegable a:hover {background-color: #bebebe}
+  
+  .abajo:hover .desplegable {
+    display: block;
+  }
+  
+  a:link { 
+    text-decoration-line:none;  
+  } 
+  
+  table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }

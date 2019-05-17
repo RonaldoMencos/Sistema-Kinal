@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Encargado } from 'src/app/models/encargado/encargado'
 import { RestService } from '../../services/rest.service'
+declare const $:any;
 
 @Component({
   selector: 'app-encargado',
@@ -29,6 +30,10 @@ export class EncargadoComponent implements OnInit {
      this.rest.getEncargado().subscribe(res =>{
        console.log(res);
        this.encargados = res.encargados
+       $(document).ready( function () {
+        $('#hola').DataTable();
+      } );
+
      })
    }
 

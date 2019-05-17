@@ -67,7 +67,6 @@ function buscarEncargado(req, res){
 
   function listarEncargado(req,res){    
     Encargado.find({},(err,encargados)=>{   
-      console.log(encargados);   
     
       
         if(err){

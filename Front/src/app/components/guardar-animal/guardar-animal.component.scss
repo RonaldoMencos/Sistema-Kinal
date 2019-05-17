@@ -6,21 +6,29 @@
   
   .titulos{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
+    font-size: 48px;
     text-align: center;
-    color: rgba(6, 110, 11, 0.993);
+    color: rgba(202, 50, 23, 0.973);
     font-style: italic;
     font-weight: bolder;
   }
   
   body{
-    background-image: url("http://www.gifsyfondos.com/fondogeral.jpg")
-  }
+    background-image: url("http://www.gifsyfondos.com/fondogeral.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+ 
+ }
   
+ .responsive{
+  width: 100%;
+  height: auto;
+ }
   
   label{
     font-family: Century;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: bolder;
   }
   
   footer{

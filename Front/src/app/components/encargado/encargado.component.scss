@@ -10,7 +10,9 @@
   }
   
   body{
-    background-image: url("http://www.gifsyfondos.com/fondogeral.jpg")
+    background-image: url("http://www.gifsyfondos.com/fondogeral.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
   
   label{
@@ -28,3 +30,47 @@
       border: 1px solid black;
       border-collapse: collapse;
     }
+
+    .boton{
+      text-align:center;
+      text-decoration: none;
+      font-family: 'Helvetica Neue', Helvetica, sans-serif;
+      display:inline-block;
+      color: #FFF;
+      background: #7F8C8D;
+      padding: 15px 40px;
+      white-space: nowrap;
+      margin: 10px 5px;
+      -webkit-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+  }
+      
+  .azul{
+  background: rgb(12, 94, 148);
+  box-shadow: 0px 5px 0px 0px rgb(11, 62, 97);
+  }
+  
+  .azul:hover{
+  background: #39a0e5;
+  }
+  
+  .azul:active{
+  box-shadow: 0px 2px 0px 0px #2980B9;
+  }
+  
+  .verde{
+    background: rgb(30, 156, 83);
+    box-shadow: 0px 5px 0px 0px rgb(11, 122, 57);
+  }
+  
+  .verde:hover{
+    background: #32db78;
+  }
+  
+  .verde:active{
+    box-shadow: 0px 2px 0px 0px #27AE60;
+  }
+  

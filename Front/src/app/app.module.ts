@@ -13,6 +13,7 @@ import { BuscarAnimalComponent } from './components/buscar-animal/buscar-animal.
 import { EncargadoComponent } from './components/encargado/encargado.component';
 import { GuardarEncargadoComponent } from './components/guardar-encargado/guardar-encargado.component';
 import { BuscarEncargadoComponent } from './components/buscar-encargado/buscar-encargado.component';
+import { NavComponent } from './components/nav/nav.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { BuscarEncargadoComponent } from './components/buscar-encargado/buscar-e
     BuscarAnimalComponent,
     EncargadoComponent,
     GuardarEncargadoComponent,
-    BuscarEncargadoComponent
+    BuscarEncargadoComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
